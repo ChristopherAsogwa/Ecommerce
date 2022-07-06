@@ -40,8 +40,8 @@ const Cart = () => {
           className="cart-heading"
           onClick={() => setShowCart(false)}
         >
-          <AiOutlineLeft />
-          <span className="heading">Your cart</span>
+          <AiOutlineLeft className="dark:text-ecommerce-dark"/>
+          <span className="heading dark:text-ecommerce-dark">Your cart</span>
           <span className="cart-num-items">({totalQuantities} items)</span>
         </button>
 

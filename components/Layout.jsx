@@ -7,7 +7,7 @@ import Footer from './Footer';
 
 const Layout = ({ children }) => {
   return (
-    <div className="layout">
+    <div className="layout dark:bg-ecommerce-dark bg-white min-h-screen">
       <Head>
         <title>Chris JS Dev Store</title>
       </Head>
